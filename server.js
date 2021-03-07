@@ -19,3 +19,45 @@ connection.connect((err) => {
     startPrompt();
 });
 
+function startPrompt() {
+    inquirer.prompt([
+        {
+            type: "list",
+            message: "What would you like to do?",
+            choices: [
+                "View all employees",
+                "View All employee's by role",
+                "View all employees by Department",
+                "Update Employee",
+                "Add an Employee",
+                "Add Role",
+                "Add Department"
+            ]
+        }
+    ]).then(function(val) {
+        switch(val.choice) {
+            case "View All Employees":
+                viewAllEmployees();
+                break;
+            case "View All employee's by role":
+                viewByRole();
+                break;
+            case "View all employees by Department":
+                viewByDepartment();
+                break;
+            case "Update Employee":
+                updateEmployee();
+                break;
+            case "Add an Employee":
+                addEmployee();
+                break;
+            case "Add Role":
+                addRole();
+                break;
+            case "Add Department":
+                addDepartment();
+                break;
+        }
+    })
+}
+
