@@ -9,9 +9,6 @@ https://drive.google.com/file/d/1HptzUPMWYUK7r2UDRuTwMcLmDn8Oho_d/view
 ## Description
 View and add employees, departments, and employee roles.
 
-## Deployment
-https://bstanfield1992-notetaker.herokuapp.com/
-
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
