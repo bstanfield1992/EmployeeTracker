@@ -19,10 +19,10 @@ View and add employees, departments, and employee roles.
 - [Questions](#questions)
 
 ## Installation
-    console.table <br />
-    inquirer <br />
-    inquirer-confirm <br />
-    mysql2 <br />
+    console.table
+    inquirer
+    inquirer-confirm
+    mysql2
 
 ## Usage
 
