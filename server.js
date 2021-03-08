@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
     host: "localhost",
     port: 3000,
     user: "root",
-    password: "root",
+    password: "PW4bstanfi!",
     database: "employee_trackerDB"
 });
 
@@ -52,7 +52,7 @@ function startPrompt() {
                 addEmployee();
                 break;
             case "Add Role":
-                addRole();
+                addEmployeeRole();
                 break;
             case "Add Department":
                 addDepartment();
