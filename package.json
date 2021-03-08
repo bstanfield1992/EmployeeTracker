@@ -1,0 +1,27 @@
+{
+  "name": "EmployeeTracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bstanfield1992/EmployeeTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bstanfield1992/EmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/bstanfield1992/EmployeeTracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "inquirer-confirm": "^2.0.7",
+    "mysql2": "^2.2.5"
+  }
+}
